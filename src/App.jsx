@@ -33,9 +33,7 @@ const allAccessories = {
     "/retro_assets/accessories/dad_hat_green.png",
     "/retro_assets/accessories/dad_hat_green1.png",
     "/retro_assets/accessories/dad_hat_green2.png",
-  ],
-  "trucker hats": [
-    "/retro_assets/accessories/trucker_hat_red.png",
+    "/retro_assets/accessories/dad_hat_green3.png",
   ],
 };
 
