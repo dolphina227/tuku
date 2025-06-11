@@ -22,10 +22,6 @@ const allAccessories = {
     "/retro_assets/accessories/hat_knitted_2.png",
     "/retro_assets/accessories/bone_1.png",
   ],
-  clothes: [
-    "/retro_assets/accessories/paw_print_1.png",
-    "/retro_assets/accessories/paw_print_2.png",
-  ],
   "mask": [
     "/retro_assets/accessories/baseball_hat_blue.png",
   ],
