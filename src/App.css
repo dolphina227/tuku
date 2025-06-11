@@ -5,7 +5,7 @@
 body {
     margin: 0;
     font-family: 'Press Start 2P', cursive; /* Use the imported pixel font */
-    background-color: #00fff2; /* The vibrant pink background */
+    background-color: #00fff2; /* The vibrant pink background (warna yang Anda tentukan) */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,17 +51,25 @@ body {
 
 .social-icons {
     display: flex;
-    gap: 10px;
+    gap: 15px; /* Sedikit memperlebar jarak antar ikon untuk kerapian */
+    align-items: center; /* Memastikan ikon sejajar secara vertikal */
 }
 
 .social-icons .icon {
     width: 30px;
     height: 30px;
     image-rendering: pixelated; /* Ensures pixel art stays sharp */
-    border: 1px solid #000000; /* Subtle border for icons */
-    background-color: #EEEEEE; /* Light background for icons */
-    padding: 2px;
+    /* === PERUBAHAN DI SINI UNTUK KERAPIAN IKON SOSIAL MEDIA === */
+    border: none; /* Hapus border */
+    background-color: transparent; /* Hapus background color */
+    padding: 0; /* Hapus padding agar gambar ikon mengisi penuh 30x30px */
+    vertical-align: middle; /* Memastikan gambar ikon sejajar dengan teks jika ada */
 }
+/* Opsional: Tambahkan efek hover jika diinginkan */
+.social-icons a:hover .icon {
+    opacity: 0.8; /* Sedikit redup saat di-hover */
+}
+
 
 /* --- Main Area Layout --- */
 .main-area {
@@ -214,9 +222,10 @@ body {
     box-sizing: border-box; /* Include padding/border in width */
 }
 
-.background-window .window-header { background-color: #00fff2; } /* Purple */
-.avatar-window .window-header { background-color: #00fff2; } /* Green */
-.accessory-window .window-header { background-color: #00fff2; } /* Red */
+/* Warna header window: sesuaikan ini dengan warna yang Anda inginkan */
+.background-window .window-header { background-color: #9933FF; } /* Ungu */
+.avatar-window .window-header { background-color: #00CC66; } /* Hijau */
+.accessory-window .window-header { background-color: #FF0066; } /* Merah */
 
 
 .scroll-content {

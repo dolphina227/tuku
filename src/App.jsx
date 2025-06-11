@@ -12,6 +12,8 @@ const backgrounds = [
 
 const avatars = [
   "/retro_assets/avatars/dog_avatar_1.png",
+  "/retro_assets/avatars/dog_avatar_2.png",
+  "/retro_assets/avatars/dog_avatar_3.png",
 ];
 
 const allAccessories = {
@@ -103,15 +105,19 @@ function App() {
     setShowDownloadModal(false);
   };
 
-  return (
+   return (
     <div className="app-container">
       <div className="top-bar">
         <h1 className="title">TUKU PFP MAKER</h1>
         <div className="social-icons">
-          <img src="/retro_assets/icons/twitter.png" alt="Twitter" className="icon" />
-          <img src="/retro_assets/icons/telegram.png" alt="Telegram" className="icon" />
-          <img src="/retro_assets/icons/book.png" alt="Book" className="icon" />
-          <img src="/retro_assets/icons/gear.png" alt="Settings" className="icon" />
+          {/* Twitter Link */}
+          <a href="https://x.com/Tuku_hl" target="_blank" rel="noopener noreferrer">
+            <img src="/retro_assets/icons/twitter.png" alt="Twitter" className="icon" />
+          </a>
+          {/* Telegram Link */}
+          <a href="https://t.me/tuku_hl" target="_blank" rel="noopener noreferrer">
+            <img src="/retro_assets/icons/telegram.png" alt="Telegram" className="icon" />
+          </a>
         </div>
       </div>
 
