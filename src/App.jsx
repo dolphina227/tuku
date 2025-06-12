@@ -14,6 +14,10 @@ const avatars = [
   "/retro_assets/avatars/dog_avatar_1.png",
   "/retro_assets/avatars/dog_avatar_2.png",
   "/retro_assets/avatars/dog_avatar_3.png",
+  "/retro_assets/avatars/dog_avatar_4.png",
+  "/retro_assets/avatars/dog_avatar_5.png",
+  "/retro_assets/avatars/dog_avatar_6.png",
+  "/retro_assets/avatars/dog_avatar_7.png",
 ];
 
 const allAccessories = {
